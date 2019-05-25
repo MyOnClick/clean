@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+		.navbar {
+			.nav {
+				a {
+					left: 0;
+					padding: 10px 5px;
+				}
+			}
+		.btn {
+			button {
+				font-size: 14px;
+				img {
+					width: 12px;
+					margin-right: 10px;
+				}
+
+			}
+		}
+		}
+	}
+
+
+	@media (max-width: 991px) {
+		.navbar {
+			text-align: center;
+			.logo {
+				display: block;
+			}
+			.nav {
+				margin-top: 5px;
+				a {
+					padding: 10px 10px;
+					font-size: 16px;
+					&:hover {
+						color: $color-gray;
+					}
+				}
+			}
+		.btn1 {
+			margin-top: 40px;
+			  display: flex;
+			  justify-content: center;
+		}
+					
+
+		}
+
+	}
+		@media (max-width: 768px) {
+			.navbar {
+				.nav {
+					display: none;
+				}
+					.overlay, .navBurger {
+						display: block;
+					}
+			}
+
+		}
