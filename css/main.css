@@ -336,12 +336,16 @@ body main .main-slider .slider-p {
   text-align: center;
 }
 
-body main .main-slider .slider-p span {
+body main .main-slider .slider-p span, body main .main-slider .slider-p small {
   margin-top: 100px;
   color: #6FAA03;
   background-color: #fff;
   padding: 5px 30px;
   border-radius: 3px;
+}
+
+body main .main-slider .slider-p small {
+  font-size: 3px;
 }
 
 body main .main-slider .slick-dots {

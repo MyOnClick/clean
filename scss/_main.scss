@@ -12,12 +12,15 @@ main {
 		position:relative;
 		top: -450px;
 		text-align: center;
-		span {
+		span, small {
 			margin-top: 100px;
 			color: $color-green;
 			background-color: #fff;
 			padding: 5px 30px;
 			border-radius: 3px;
+		}
+		small {
+			font-size: 3px;
 		}
 	}
 		max-width:100%;
