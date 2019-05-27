@@ -345,11 +345,16 @@ body main .main-slider .slider-p span, body main .main-slider .slider-p small {
 }
 
 body main .main-slider .slider-p small {
-  font-size: 3px;
+  font-size: 30px;
 }
 
 body main .main-slider .slick-dots {
   bottom: 400px;
+}
+
+body main .main-slider .slick-dots li button:before {
+  font-size: 15px;
+  color: #FFFFFF;
 }
 
 body main .main-slider img {

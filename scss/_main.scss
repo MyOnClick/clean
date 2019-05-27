@@ -20,12 +20,16 @@ main {
 			border-radius: 3px;
 		}
 		small {
-			font-size: 3px;
+			font-size: 30px;
 		}
 	}
 		max-width:100%;
 		.slick-dots {
 			bottom: 400px;
+		}
+		.slick-dots li button:before {
+			font-size: 15px;
+			color: $color-white;
 		}
 			img {
 				width: 100%;
