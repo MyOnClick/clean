@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap&subset=cyrillic");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,700&display=swap&subset=cyrillic");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -15,8 +16,24 @@ html {
 }
 
 body {
-  color: #333333;
+  color: #595959;
   font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  /* секция шапка*/
+  /*главная секция */
+  /* секция услуги */
+}
+
+body .title h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  color: #6FAA03;
+}
+
+body .title h2 span {
+  color: #595959;
 }
 
 body .navbar {
@@ -229,6 +246,10 @@ body .navbar img {
   width: 80%;
 }
 
+body .navbar .nav {
+  font-weight: 700;
+}
+
 body .navbar .nav a {
   font-family: 'Ubuntu',sans-serif;
   color: #595959;
@@ -275,125 +296,10 @@ body .navbar .btn-namberTop button img {
   width: 16px;
 }
 
-@media (max-width: 1200px) {
-  body .navbar .nav a {
-    left: 0;
-    padding: 10px 5px;
-  }
-  body .navbar .btn-namberTop button a {
-    font-size: 14px;
-  }
-  body .navbar .btn-namberTop button img {
-    width: 12px;
-    margin-right: 8px;
-  }
-  body main .slider-p {
-    top: -350px !important;
-    font-size: 45px !important;
-  }
-  body main .slick-dots {
-    bottom: 350px !important;
-  }
-}
-
-@media (max-width: 991px) {
-  body .navbar {
-    text-align: center;
-  }
-  body .navbar .logo {
-    display: block;
-  }
-  body .navbar .nav {
-    margin-top: 5px;
-  }
-  body .navbar .nav a {
-    padding: 10px 10px;
-    font-size: 16px;
-  }
-  body .navbar .nav a:hover {
-    color: #939393;
-  }
-  body .navbar .btn1 {
-    margin-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  body .navbar .btn-namberTop button {
-    left: 0;
-  }
-  body .navbar .btn-namberTop button a {
-    font-size: 14px;
-  }
-  body .navbar .btn-namberTop button img {
-    width: 16px;
-    margin-right: 8px;
-  }
-  body main .slider-p {
-    top: -300px !important;
-    font-size: 35px !important;
-  }
-  body main .slick-dots {
-    bottom: 280px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  body .navbar .nav {
-    display: none;
-  }
-  body .navbar .overlay, body .navbar .navBurger {
-    display: block;
-  }
-  body main .slider-p {
-    top: -250px !important;
-    font-size: 30px !important;
-  }
-  body main .slider-p small {
-    font-size: 20px !important;
-  }
-  body main .slick-dots {
-    bottom: 230px !important;
-  }
-  body main .slick-dots li button:before {
-    font-size: 10px !important;
-  }
-}
-
-@media (max-width: 420px) {
-  body .navbar img {
-    width: 70%;
-  }
-  body .navbar .btn-namberTop
-button {
-    padding: 11px 35px;
-  }
-  body main {
-    margin-top: 25px !important;
-  }
-  body main .slider-p {
-    top: -130px !important;
-    font-size: 16px !important;
-  }
-  body main .slider-p small {
-    font-size: 10px !important;
-  }
-  body main .slider-p span, body main .slider-p small {
-    padding: 5px 10px !important;
-  }
-  body main .slick-dots {
-    bottom: 110px !important;
-  }
-  body main .slick-dots li button:before {
-    font-size: 4px !important;
-  }
-}
-
 body main {
+  font-weight: 700;
   margin: 20px -8px;
+  height: 600px;
 }
 
 body main .main-slider {
@@ -437,5 +343,216 @@ body main .main-slider .slick-dots li button:before {
 body main .main-slider img {
   width: 100%;
   height: 100%;
+}
+
+body .amenities {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+}
+
+body .amenities .amenities-block {
+  margin-top: 40px;
+  padding: 100px 15px 60px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+body .amenities .amenities-block:hover {
+  -webkit-box-shadow: 15px 15px 18px #f1f1f1;
+          box-shadow: 15px 15px 18px #f1f1f1;
+}
+
+body .amenities img {
+  width: 200px;
+}
+
+body .amenities h3, body .amenities p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .amenities h3 {
+  color: #333333;
+  margin: 30px 0 0 0;
+}
+
+body .amenities p {
+  margin: 10px 0  30px 0;
+  color: #6FAA03;
+}
+
+body .amenities a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #9BDAE2;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #939393;
+}
+
+body .amenities a:hover {
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  color: #FFFFFF;
+  background-color: #9BDAE2;
+}
+
+@media (max-width: 1200px) {
+  body .navbar .nav a {
+    left: 0;
+    padding: 10px 5px;
+  }
+  body .navbar .btn-namberTop button a {
+    font-size: 14px;
+  }
+  body .navbar .btn-namberTop button img {
+    width: 12px;
+    margin-right: 8px;
+  }
+  body main {
+    height: 450px !important;
+  }
+  body main .slider-p {
+    top: -350px !important;
+    font-size: 45px !important;
+  }
+  body main .slick-dots {
+    bottom: 350px !important;
+  }
+  body .amenities img {
+    width: 180px;
+  }
+  body .amenities h3, body .amenities p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  body .navbar {
+    text-align: center;
+  }
+  body .navbar .logo {
+    display: block;
+  }
+  body .navbar .nav {
+    margin-top: 5px;
+  }
+  body .navbar .nav a {
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  body .navbar .nav a:hover {
+    color: #939393;
+  }
+  body .navbar .btn1 {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .navbar .btn-namberTop button {
+    left: 0;
+  }
+  body .navbar .btn-namberTop button a {
+    font-size: 14px;
+  }
+  body .navbar .btn-namberTop button img {
+    width: 16px;
+    margin-right: 8px;
+  }
+  body main {
+    height: 400px !important;
+  }
+  body main .slider-p {
+    top: -300px !important;
+    font-size: 35px !important;
+  }
+  body main .slick-dots {
+    bottom: 280px !important;
+  }
+  body .amenities .amenities-block {
+    margin-top: 0;
+  }
+  body .amenities img {
+    width: 140px;
+  }
+  body .amenities h3,
+  body .amenities p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  body .navbar .nav {
+    display: none;
+  }
+  body .navbar .overlay, body .navbar .navBurger {
+    display: block;
+  }
+  body main {
+    height: 300px !important;
+  }
+  body main .slider-p {
+    top: -250px !important;
+    font-size: 30px !important;
+  }
+  body main .slider-p small {
+    font-size: 20px !important;
+  }
+  body main .slick-dots {
+    bottom: 230px !important;
+  }
+  body main .slick-dots li button:before {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  body .navbar img {
+    width: 70%;
+  }
+  body .navbar .btn-namberTop
+button {
+    padding: 11px 35px;
+  }
+  body main {
+    height: 200px !important;
+    margin-top: 25px !important;
+  }
+  body main .slider-p {
+    top: -130px !important;
+    font-size: 16px !important;
+  }
+  body main .slider-p small {
+    font-size: 10px !important;
+  }
+  body main .slider-p span, body main .slider-p small {
+    padding: 5px 10px !important;
+  }
+  body main .slick-dots {
+    bottom: 110px !important;
+  }
+  body main .slick-dots li button:before {
+    font-size: 4px !important;
+  }
+  body .amenities .amenities-block {
+    padding-top: 80px;
+  }
+  body .amenities h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  body .amenities img {
+    width: 200px;
+  }
+  body .amenities h3, body .amenities p {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

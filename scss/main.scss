@@ -11,8 +11,22 @@ html {
 }
 @import 'color';
  body {
+	.title {
+		h2 {
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 200;
+			font-size: 36px;
+			color: $color-green;
+			span {
+				color: $color-text;
+			}
+		}
+	}
 	 color:$color-text;
 	 font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+/* секция шапка*/
 	.navbar {
 		background-color:$color-white;
 		.overlay,
@@ -194,6 +208,7 @@ html {
 			width: 80%;
 		}
 	.nav {
+		font-weight: 700;
 			a {
 				font-family: 'Ubuntu',sans-serif;
 				color: #595959;
@@ -239,6 +254,8 @@ html {
 			}
 	}
 	
-	@import 'mobile';
+	
 	@import 'main';
+	@import 'amenities';
+	@import 'mobile';
  }

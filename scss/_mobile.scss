@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-		.navbar {
+	.navbar {
 			.nav {
 				a {
 					left: 0;
@@ -19,7 +19,8 @@
 			}
 		}
 		}
-		main {
+	main {
+		height: 450px !important;
 			.slider-p {
 				top: -350px !important;
 				font-size: 45px !important;
@@ -28,11 +29,18 @@
 				bottom: 350px !important;
 			}
 	}
+	.amenities {
+	img {
+		width: 180px;
+	}
+	h3, p {
+		font-size: 16px;
+	}
+	}
 }
 
-
-	@media (max-width: 991px) {
-		.navbar {
+@media (max-width: 991px) {
+	.navbar {
 			text-align: center;
 			.logo {
 				display: block;
@@ -69,7 +77,8 @@
 		}
 
 		}
-		main {
+	main {
+		height: 400px !important;
 			.slider-p {
 				top: -300px !important;
 				font-size: 35px !important;
@@ -77,10 +86,22 @@
 			.slick-dots {
 				bottom:280px !important;
 			}
+		}
+	.amenities {
+		.amenities-block {
+			margin-top: 0;
+		}
+		img {
+			width: 140px;
+		}
+	h3,
+	p {
+		font-size: 10px;
 	}
 	}
+}
 	@media (max-width: 768px) {
-			.navbar {
+		.navbar {
 				.nav {
 					display: none;
 				}
@@ -89,6 +110,7 @@
 					}
 			}
 		main {
+			height: 300px !important;
 			.slider-p {
 				top: -250px !important;
 				font-size: 30px !important;
@@ -116,6 +138,7 @@
 			}	
 	}
 	main {
+		height:200px !important;
 		margin-top: 25px !important;
 		.slider-p {
 			top: -130px !important;
@@ -133,5 +156,20 @@
 		.slick-dots li button:before {
 			font-size: 4px !important;
 		}
+	}
+	.amenities {
+		.amenities-block {
+			padding-top: 80px;
+		}
+				h2 {
+					font-size: 20px;
+					font-weight: 700;
+			}
+		img {
+			width: 200px;	
+		}
+	h3, p {
+		font-size: 20px;
+	}
 	}
 }
