@@ -150,6 +150,29 @@
 			font-size: 14px;
 		}
 	}
+	.info {
+		.title {
+			margin-top: 50px;
+		}
+			padding: 0;
+			p {
+				padding:15px;
+			}
+			.info-two {
+				p {
+					font-size: 13px;
+				}
+			}
+			.info-five {
+				p {
+					font-size: 14px;
+				}
+			}
+				img {
+					width: 120px;
+					padding: 5px;
+				}
+		}
 }
 
 @media (max-width: 420px) {
@@ -217,5 +240,17 @@
 				font-weight: bold; 
 			}
 		}
+	}
+	.info {
+		.title{
+			h2 {
+				font-size: 20px;
+				font-weight: bold;
+			}
+		}
+			img {
+				width: 200px;
+				padding: 5px;
+			}
 	}
 }

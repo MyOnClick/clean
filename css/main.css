@@ -28,7 +28,7 @@ body .title h2 {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 200;
-  font-size: 36px;
+  font-size: 40px;
   color: #6FAA03;
 }
 
@@ -463,6 +463,58 @@ body .work img {
   width: 200px;
 }
 
+body .info {
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+
+body .info h2 {
+  color: #2D8496;
+}
+
+body .info p {
+  padding: 15px 40px 15px 15px;
+  font-size: 15px;
+}
+
+body .info .info-two {
+  font-weight: bold;
+}
+
+body .info .info-two p {
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body .info .info-three {
+  color: #333333;
+}
+
+body .info .info-three p {
+  font-size: 14px;
+}
+
+body .info .info-five {
+  text-align: center;
+  font-weight: bold;
+}
+
+body .info .info-five p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body .info .info-img {
+  text-align: center;
+}
+
+body .info img {
+  width: 200px;
+  padding: 15px;
+}
+
 @media (max-width: 1200px) {
   body .navbar .nav a {
     left: 0;
@@ -594,6 +646,25 @@ body .work img {
   body .tocall a {
     font-size: 14px;
   }
+  body .info {
+    padding: 0;
+  }
+  body .info .title {
+    margin-top: 50px;
+  }
+  body .info p {
+    padding: 15px;
+  }
+  body .info .info-two p {
+    font-size: 13px;
+  }
+  body .info .info-five p {
+    font-size: 14px;
+  }
+  body .info img {
+    width: 120px;
+    padding: 5px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -653,6 +724,14 @@ button {
   body .work .title h2 {
     font-size: 20px;
     font-weight: bold;
+  }
+  body .info .title h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  body .info img {
+    width: 200px;
+    padding: 5px;
   }
 }
 /*# sourceMappingURL=main.css.map */

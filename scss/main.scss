@@ -16,7 +16,7 @@ html {
 			text-align: center;
 			font-family: 'Ubuntu', sans-serif;
 			font-weight: 200;
-			font-size: 36px;
+			font-size: 40px;
 			color: $color-green;
 			span {
 				color: $color-text;
@@ -259,5 +259,6 @@ html {
 	@import 'amenities';
 	@import 'tocall';
 	@import 'work';
+	@import 'info';
 	@import 'mobile';
  }
