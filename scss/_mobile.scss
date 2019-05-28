@@ -37,6 +37,12 @@
 		font-size: 16px;
 	}
 	}
+	.tocall {
+		height: 80vh;
+	h2 {
+		padding-top: 130px;
+	}
+	}
 }
 
 @media (max-width: 991px) {
@@ -81,7 +87,7 @@
 		height: 400px !important;
 			.slider-p {
 				top: -300px !important;
-				font-size: 35px !important;
+				font-size: 40px !important;
 			}
 			.slick-dots {
 				bottom:280px !important;
@@ -99,6 +105,16 @@
 		font-size: 10px;
 	}
 	}
+	.tocall {
+		
+		h2 {
+			padding-top: 110px;
+			font-size: 30px;
+		}
+		.tophone {
+			margin: 35px auto;
+		}
+	}
 }
 	@media (max-width: 768px) {
 		.navbar {
@@ -112,8 +128,8 @@
 		main {
 			height: 300px !important;
 			.slider-p {
-				top: -250px !important;
-				font-size: 30px !important;
+				top: -210px !important;
+				font-size: 25px !important;
 				small {
 					font-size: 20px !important;
 				}
@@ -124,6 +140,15 @@
 			.slick-dots li button:before {
 				font-size: 10px !important;
 			}
+	}
+	.tocall {
+		h2 {
+			padding-top: 90px;
+			font-size: 20px;
+		}
+		a {
+			font-size: 14px;
+		}
 	}
 }
 
@@ -171,5 +196,26 @@
 	h3, p {
 		font-size: 20px;
 	}
+	}
+	.tocall {
+		height: 40vh;
+		h2 {
+			padding-top: 40px;
+			font-size: 17px;
+		}
+		.tophone {
+			margin-top: 80px;
+		}
+		a {
+			border: 2px solid $color-blue;
+		}
+	}
+	.work {
+		.title {
+			h2 {
+				font-size: 20px;
+				font-weight: bold; 
+			}
+		}
 	}
 }
