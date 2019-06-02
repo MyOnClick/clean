@@ -1,19 +1,23 @@
 .work {
 	background: linear-gradient(to top, transparent 0%, #fff 75%),
-	url('../img/work/bg-work.png') no-repeat;
+		url('../img/work/bg-work.png') no-repeat;
 	background-size: cover;
 	padding: 50px 15px;
 	text-align: center;
+
 	h2 {
 		color: $color-blue;
 	}
+
 	.work-blog {
 		margin: 60px 0 0;
 	}
+
 	h4 {
 		font-size: 20px;
 		font-weight: bold;
 	}
+
 	img {
 		width: 200px;
 	}

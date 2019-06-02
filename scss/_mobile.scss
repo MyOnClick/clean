@@ -1,17 +1,19 @@
 @media (max-width: 1200px) {
 
 	.navbar {
-			.nav {
-				a {
-					left: 0;
-					padding: 10px 5px;
-				}
+		.nav {
+			a {
+				left: 0;
+				padding: 10px 5px;
 			}
+		}
+
 		.btn-namberTop {
 			button {
 				a {
 					font-size: 14px;
 				}
+
 				img {
 					width: 12px;
 					margin-right: 8px;
@@ -19,58 +21,73 @@
 
 			}
 		}
-		}
+	}
+
 	main {
 		height: 450px !important;
-			.slider-p {
-				top: -350px !important;
-				font-size: 45px !important;
-			}
-			.slick-dots {
-				bottom: 350px !important;
-			}
+
+		.slider-p {
+			top: -350px !important;
+			font-size: 45px !important;
+		}
+
+		.slick-dots {
+			bottom: 350px !important;
+		}
 	}
+
 	.amenities {
-	img {
-		width: 180px;
+		img {
+			width: 180px;
+		}
+
+		h3,
+		p {
+			font-size: 16px;
+		}
 	}
-	h3, p {
-		font-size: 16px;
-	}
-	}
+
 	.tocall {
 		height: 80vh;
-	h2 {
-		padding-top: 130px;
-	}
+
+		h2 {
+			padding-top: 130px;
+		}
 	}
 }
 
 @media (max-width: 991px) {
 	.navbar {
-			text-align: center;
-			.logo {
-				display: block;
-			}
-			.nav {
-				margin-top: 5px;
-				a {
-					padding: 10px 10px;
-					font-size: 16px;
-					&:hover {
-						color: $color-gray;
-					}
+		text-align: center;
+
+		.logo {
+			display: block;
+		}
+
+		.nav {
+			margin-top: 5px;
+
+			a {
+				padding: 10px 10px;
+				font-size: 16px;
+
+				&:hover {
+					color: $color-gray;
 				}
 			}
+		}
+
 		.btn1 {
 			margin-top: 20px;
-			  display: flex;
-				justify-content: center;
+			display: flex;
+			justify-content: center;
 
 		}
+
 		.btn-namberTop {
 			button {
 				left: 0;
+
 				a {
 					font-size: 14px;
 				}
@@ -83,170 +100,211 @@
 			}
 		}
 
-		}
+	}
+
 	main {
 		height: 400px !important;
-			.slider-p {
-				top: -300px !important;
-				font-size: 40px !important;
-			}
-			.slick-dots {
-				bottom:280px !important;
-			}
+
+		.slider-p {
+			top: -300px !important;
+			font-size: 40px !important;
 		}
+
+		.slick-dots {
+			bottom: 280px !important;
+		}
+	}
+
 	.amenities {
 		.amenities-block {
 			margin-top: 0;
 		}
+
 		img {
 			width: 140px;
 		}
-	h3,
-	p {
-		font-size: 10px;
+
+		h3,
+		p {
+			font-size: 10px;
+		}
 	}
-	}
+
 	.tocall {
-		
+
 		h2 {
 			padding-top: 110px;
 			font-size: 30px;
 		}
+
 		.tophone {
 			margin: 35px auto;
 		}
 	}
+
 	.footer {
-			 .btn1 {
-			 	.btnBottom {
-			 		button {
-						margin: 20px;
-					 }
-					}
+		.btn1 {
+			.btnBottom {
+				button {
+					margin: 20px;
 				}
+			}
+		}
 
 		padding:60px 15px 0;
 	}
+
 	.services {
 		.accordion-tabs li.tab-head-cont a {
 			font-size: 14px;
 		}
 	}
+
 	.reviews {
 		.img-face {
 			text-align: center;
 		}
 	}
+
 	.contacts {
 		.form {
-			input, button {
+
+			input,
+			button {
 				width: 340px;
 			}
 		}
 	}
 }
-	@media (max-width: 768px) {
+
+@media (max-width: 768px) {
 	.navbar {
-				.nav {
-					display: none;
-				}
-					.overlay, .navBurger {
-						display: block;
-					}
+		.nav {
+			display: none;
 		}
-		main {
-			height: 300px !important;
-			.slider-p {
-				top: -210px !important;
-				font-size: 25px !important;
-				small {
-					font-size: 20px !important;
-				}
-			}
-			.slick-dots {
-				bottom:230px !important;
-			}
-			.slick-dots li button:before {
-				font-size: 10px !important;
-			}
+
+		.overlay,
+		.navBurger {
+			display: block;
+		}
 	}
+
+	main {
+		height: 300px !important;
+
+		.slider-p {
+			top: -210px !important;
+			font-size: 25px !important;
+
+			small {
+				font-size: 20px !important;
+			}
+		}
+
+		.slick-dots {
+			bottom: 230px !important;
+		}
+
+		.slick-dots li button:before {
+			font-size: 10px !important;
+		}
+	}
+
 	.tocall {
 		h2 {
 			padding-top: 90px;
 			font-size: 20px;
 		}
+
 		a {
 			font-size: 14px;
 		}
-	} 
+	}
+
 	.info {
 		.title {
 			margin-top: 50px;
 		}
-			padding: 0;
-			p {
-				padding:15px;
-			}
-			.info-two {
-				p {
-					font-size: 13px;
-				}
-			}
-			.info-five {
-				p {
-					font-size: 14px;
-				}
-			}
-				img {
-					width: 120px;
-					padding: 5px;
-				}
+
+		padding: 0;
+
+		p {
+			padding: 15px;
 		}
-	.footer {	
+
+		.info-two {
+			p {
+				font-size: 13px;
+			}
+		}
+
+		.info-five {
+			p {
+				font-size: 14px;
+			}
+		}
+
+		img {
+			width: 120px;
+			padding: 5px;
+		}
+	}
+
+	.footer {
 		background-size: 150%;
 		height: 250px;
+
 		.btn1 {
 			.btnBottom {
 				button {
-						margin: 10px 0 20px 0;
+					margin: 10px 0 20px 0;
 				}
 			}
 		}
 	}
+
 	footer {
 		.site {
 			text-align: left;
 		}
 	}
+
 	.services {
 		.accordion-tabs li.tab-head-cont a {
 			font-size: 12px;
 		}
 	}
+
 	.bg-img {
 		img {
 			width: 300px;
 		}
 	}
+
 	.cleaningProducts {
 		h2 {
 			text-align: center;
 		}
+
 		.img-list img {
 			margin: 5px;
 		}
 	}
+
 	.reviews {
 		.img-face {
 			text-align: left;
 		}
 	}
+
 	.contacts {
 		.form {
-			input, button {
+
+			input,
+			button {
 				width: 300px;
 			}
-		 }
+		}
 	}
 }
 
@@ -255,83 +313,104 @@
 		img {
 			width: 70%;
 		}
-		.btn-namberTop
-			button {
-				padding: 11px 35px;
-			}	
+
+		.btn-namberTop button {
+			padding: 11px 35px;
+		}
 	}
+
 	main {
-		height:200px !important;
+		height: 200px !important;
 		margin-top: 25px !important;
+
 		.slider-p {
 			top: -130px !important;
-				font-size: 16px !important;
-				small {
-					font-size: 10px !important;
+			font-size: 16px !important;
+
+			small {
+				font-size: 10px !important;
 			}
-			span, small {
+
+			span,
+			small {
 				padding: 5px 10px !important;
 			}
 		}
+
 		.slick-dots {
 			bottom: 110px !important;
 		}
+
 		.slick-dots li button:before {
 			font-size: 4px !important;
 		}
 	}
+
 	.amenities {
 		.amenities-block {
 			padding-top: 80px;
 		}
-				h2 {
-					font-size: 20px;
-					font-weight: 700;
-			}
-		img {
-			width: 200px;	
+
+		h2 {
+			font-size: 20px;
+			font-weight: 700;
 		}
-	h3, p {
-		font-size: 20px;
+
+		img {
+			width: 200px;
+		}
+
+		h3,
+		p {
+			font-size: 20px;
+		}
 	}
-	}
+
 	.tocall {
 		height: 40vh;
+
 		h2 {
 			padding-top: 40px;
 			font-size: 17px;
 		}
+
 		.tophone {
 			margin-top: 80px;
 		}
+
 		a {
 			border: 2px solid $color-blue;
 		}
 	}
+
 	.work {
 		.title {
-			h2 {
-				font-size: 20px;
-				font-weight: bold; 
-			}
-		}
-	}
-	.info {
-		.title{
 			h2 {
 				font-size: 20px;
 				font-weight: bold;
 			}
 		}
-			img {
-				width: 200px;
-				padding: 5px;
-			}
 	}
+
+	.info {
+		.title {
+			h2 {
+				font-size: 20px;
+				font-weight: bold;
+			}
+		}
+
+		img {
+			width: 200px;
+			padding: 5px;
+		}
+	}
+
 	.footer {
 		background-size: cover;
 		padding: 60px 15px;
 		height: auto;
+
 		.btn-namberTop {
 			.btnBottom {
 				button {
@@ -340,30 +419,37 @@
 			}
 		}
 	}
+
 	footer {
 		font-size: 14px;
+
 		ul {
 			padding: 0;
+
 			li {
 				padding: 10px;
 			}
 		}
 	}
+
 	.services {
 		.accordion-tabs li.tab-head-cont a {
 			font-size: 18px;
 		}
 	}
+
 	.reviews {
 		&-box {
 			img {
 				margin: 5px;
 			}
 		}
+
 		h4 {
 			font-size: 14px;
 			margin: 5px;
 		}
+
 		p {
 			font-size: 14px;
 		}

@@ -4,40 +4,45 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding: 200px 15px 80px;
-	 .nav {
+
+	.nav {
 		.nav-footer {
 			a {
-				color:$color-white;
+				color: $color-white;
 				position: relative;
 				top: 20px;
+
 				&:hover {
 					color: $color-text;
 					transition: .3s linear;
 				}
 			}
 		}
-	 }
-	 .btn1 {
-		 .btnBottom {
-			 button {
-				 border:2px solid $color-white;
-				 top: 5px;
-				 &:hover {
-					 border-color:#ccc;
-					 transition: all .3s linear;
-				 }
-			 }
+	}
 
-			 a{
-				 color: $color-white;
-				 &:hover {
-					 color: #ccc;
-					 transition: all .3s linear;
-				 }
-			 }
+	.btn1 {
+		.btnBottom {
+			button {
+				border: 2px solid $color-white;
+				top: 5px;
 
-		 }
-	 }
- 
+				&:hover {
+					border-color: #ccc;
+					transition: all .3s linear;
+				}
+			}
+
+			a {
+				color: $color-white;
+
+				&:hover {
+					color: #ccc;
+					transition: all .3s linear;
+				}
+			}
+
+		}
+	}
+
 
 }

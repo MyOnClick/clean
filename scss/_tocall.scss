@@ -1,33 +1,37 @@
 .tocall {
-	margin: 50px  0;
-		background-image: url('../img/tocall/bg-tocall.png') ;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		height: 100vh;
-		text-align: center;
-		color: $color-white;
-		h2 {
-			padding-top: 180px;
-			font-size: 40px;
+	margin: 50px 0;
+	background-image: url('../img/tocall/bg-tocall.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+	color: $color-white;
+
+	h2 {
+		padding-top: 180px;
+		font-size: 40px;
+	}
+
+	.tophone {
+		margin: 60px auto;
+	}
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+		color: $color-text;
+		background-color: #fff;
+		font-size: 18px;
+		padding: 12px 22px;
+		border-radius: 30px;
+		transition: .3s linear;
+
+		&:hover {
+			background-color: $color-text;
+			color: $color-white;
+			border: 1px solid transparent;
 		}
-		.tophone {
-			margin: 60px auto;
-		}
-		a {
-			font-weight: bold;
-			text-decoration: none;
-			color: $color-text;
-			background-color: #fff;
-			font-size: 18px;
-			padding: 12px 22px;
-			border-radius: 30px;
-			    transition: .3s linear;
-			&:hover {
-				background-color: $color-text;
-				color: $color-white;
-				border: 1px solid transparent;
-			}
-			
-		}
+
+	}
 
 }
