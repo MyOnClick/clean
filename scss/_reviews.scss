@@ -1,0 +1,33 @@
+.reviews {
+		margin-top: 50px;
+	&-box {
+		max-width: 700px;
+		margin: 20px;
+		padding: 20px;
+		box-shadow: 0 0 12px rgba($color-text2, .5);
+		h4 {
+			font-size: 18px;
+			font-weight: 500;
+			color:$color-text2;
+			margin: 14px;
+		}
+		.img-face {
+			text-align: right;
+			img {
+				border-radius: 150px;
+				width: 100px;
+				height: 100px;
+				margin: 0;
+			}
+		}
+		img 
+			{
+				margin: 14px;
+			}
+		p {
+			font-weight: 200;
+			font-size: 16px;
+		}
+	}
+}
+

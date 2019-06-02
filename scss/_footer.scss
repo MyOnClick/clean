@@ -1,0 +1,45 @@
+footer {
+	background-color: $color-bgfooter;
+	color:$color-gray;
+	font-size: 16px;
+	.row {
+		padding: 70px 0 100px;
+	}
+	ul, a {
+		color:$color-gray;
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+			color: #ccc;
+			transition: .3s linear;
+		}
+	}
+
+	ul {
+			li {
+				list-style-type: none;
+				padding: 3px;
+			}
+	}
+	.site {
+		margin: 16px 0;
+		text-align: right;
+
+	}
+	#toTop {
+		width: 100px;
+		text-align: center;
+		padding: 5px;
+		position: fixed;
+		bottom: 10px;
+		/* отступ кнопки от нижнего края страницы*/
+		right: 10px;
+		cursor: pointer;
+		display: none;
+		color: #333;
+		color: $color-blue-light;
+		font-family: verdana;
+		font-size: 24px;
+	}
+}

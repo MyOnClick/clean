@@ -1,4 +1,5 @@
 @media (max-width: 1200px) {
+
 	.navbar {
 			.nav {
 				a {
@@ -115,16 +116,44 @@
 			margin: 35px auto;
 		}
 	}
+	.footer {
+			 .btn1 {
+			 	.btnBottom {
+			 		button {
+						margin: 20px;
+					 }
+					}
+				}
+
+		padding:60px 15px 0;
+	}
+	.services {
+		.accordion-tabs li.tab-head-cont a {
+			font-size: 14px;
+		}
+	}
+	.reviews {
+		.img-face {
+			text-align: center;
+		}
+	}
+	.contacts {
+		.form {
+			input, button {
+				width: 340px;
+			}
+		}
+	}
 }
 	@media (max-width: 768px) {
-		.navbar {
+	.navbar {
 				.nav {
 					display: none;
 				}
 					.overlay, .navBurger {
 						display: block;
 					}
-			}
+		}
 		main {
 			height: 300px !important;
 			.slider-p {
@@ -149,7 +178,7 @@
 		a {
 			font-size: 14px;
 		}
-	}
+	} 
 	.info {
 		.title {
 			margin-top: 50px;
@@ -173,6 +202,52 @@
 					padding: 5px;
 				}
 		}
+	.footer {	
+		background-size: 150%;
+		height: 250px;
+		.btn1 {
+			.btnBottom {
+				button {
+						margin: 10px 0 20px 0;
+				}
+			}
+		}
+	}
+	footer {
+		.site {
+			text-align: left;
+		}
+	}
+	.services {
+		.accordion-tabs li.tab-head-cont a {
+			font-size: 12px;
+		}
+	}
+	.bg-img {
+		img {
+			width: 300px;
+		}
+	}
+	.cleaningProducts {
+		h2 {
+			text-align: center;
+		}
+		.img-list img {
+			margin: 5px;
+		}
+	}
+	.reviews {
+		.img-face {
+			text-align: left;
+		}
+	}
+	.contacts {
+		.form {
+			input, button {
+				width: 300px;
+			}
+		 }
+	}
 }
 
 @media (max-width: 420px) {
@@ -252,5 +327,45 @@
 				width: 200px;
 				padding: 5px;
 			}
+	}
+	.footer {
+		background-size: cover;
+		padding: 60px 15px;
+		height: auto;
+		.btn-namberTop {
+			.btnBottom {
+				button {
+					margin: 5px;
+				}
+			}
+		}
+	}
+	footer {
+		font-size: 14px;
+		ul {
+			padding: 0;
+			li {
+				padding: 10px;
+			}
+		}
+	}
+	.services {
+		.accordion-tabs li.tab-head-cont a {
+			font-size: 18px;
+		}
+	}
+	.reviews {
+		&-box {
+			img {
+				margin: 5px;
+			}
+		}
+		h4 {
+			font-size: 14px;
+			margin: 5px;
+		}
+		p {
+			font-size: 14px;
+		}
 	}
 }

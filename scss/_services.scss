@@ -1,0 +1,155 @@
+.services {
+	*,
+	*:before,
+	*:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	// body {
+	// 	margin: 0;
+	// 	padding: 0;
+	// 	font: 0.875em/1.48 arial, tahoma;
+	// }
+
+	.container-tab {
+		margin: auto;
+		max-width: 991px;
+		padding: 60px 20px 0 20px;
+	}
+
+	/* TABS */
+	.accordion-tabs {
+		*zoom: 1;
+		width: 100%;
+		border: 1px solid #dddddd;
+		border-radius: 0.1875em;
+		margin-bottom: 1.5em;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.accordion-tabs:before,
+	.accordion-tabs:after {
+		content: " ";
+		display: table;
+	}
+
+	.accordion-tabs:after {
+		clear: both;
+	}
+
+	.accordion-tabs li {
+		list-style: none;
+	}
+
+	.accordion-tabs li.tab-head-cont:first-child a {
+		border-top-left-radius: 0.1875em;
+		border-top-right-radius: 0.1875em;
+		border-top: 0;
+	}
+
+	.accordion-tabs li.tab-head-cont:last-child a {
+		border-bottom-left-radius: 0.1875em;
+		border-bottom-right-radius: 0.1875em;
+	}
+
+	.accordion-tabs li.tab-head-cont a {
+		text-decoration: none;
+		border-top: 1px solid #dddddd;
+		color: $color-blue;
+		display: block;
+		padding: 0.75em 0.809em;
+	}
+
+	.accordion-tabs li.tab-head-cont a:hover {
+		color: $color-services-hover;
+	}
+
+	.accordion-tabs li.tab-head-cont a:focus {
+		outline: none;
+	}
+
+	.accordion-tabs li.tab-head-cont a.is-active {
+		background-color: #f7f7f7;
+		border-bottom: 0;
+		color: #333333;
+	}
+
+	.accordion-tabs li.tab-head-cont section {
+		padding: 1.5em 1.618em;
+		background: $color-white;
+		display: none;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	h2 {
+		color: $color-blue;
+		font-weight: 500;
+	}
+
+	h4 {
+		text-align: center;
+		padding-top: 20px;
+		color: $color-text2;
+		font-size: 16px;
+	}
+
+	img {
+		margin-top: 5px;
+		margin-right: 10px;
+	}
+
+	/* RESPONSIVE */
+	@media screen and (min-width: 40em) {
+		.accordion-tabs {
+			border: none;
+			position: relative;
+		}
+
+		.accordion-tabs li.tab-head-cont {
+			display: inline;
+		}
+
+		.accordion-tabs li.tab-head-cont:last-child a {
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+
+		.accordion-tabs li.tab-head-cont a {
+			display: inline-block;
+			vertical-align: baseline;
+			zoom: 1;
+			*display: inline;
+			*vertical-align: auto;
+			border-top: 0;
+			border-top-right-radius: 0.1875em;
+			border-top-left-radius: 0.1875em;
+			font-size: 18px;
+		}
+
+		.accordion-tabs li.tab-head-cont a.is-active {
+			color: $color-services-hover;
+			background-color: $color-white;
+			border-bottom: 1px solid $color-services-hover;
+			margin-bottom: -1px;
+		}
+
+		.accordion-tabs li.tab-head-cont section {
+			border-bottom-left-radius: 0.1875em;
+			border-bottom-right-radius: 0.1875em;
+			float: left;
+			left: 0;
+			padding: 0.75em 0.809em;
+		}
+
+		.accordion-tabs li.tab-head-cont section p {
+			-webkit-columns: 2;
+			-moz-columns: 2;
+			columns: 2;
+		}
+	}
+
+}

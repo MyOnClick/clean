@@ -1,0 +1,45 @@
+.contacts {
+	margin: 40px  0 40px 30px;
+	background-color:$color-white;
+	h4 {
+		margin: 20px 0;
+		font-size: 24px;
+		color:$color-blue;	
+		font-weight: 200;
+	}
+	.contact-info {
+		font-size: 20px;
+		font-weight: 200;
+		padding: 0;
+		color:$color-text2;
+		li {
+			list-style-type:none;
+			margin: 10px 0;
+			a {
+				text-decoration: none;
+				color: $color-text2;
+			}
+		}
+	}
+	.form {
+		input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+		}
+		button {
+		  width: 400px;
+		  border: 1px solid transparent;
+		  background: #138291;
+		  color: $color-white;
+		  padding: 10px;
+			transition: .3s linear;
+			&:hover {
+				background-color:$color-white;
+				color: $color-blue;
+				border:1px solid $color-blue;
+			}
+		}
+	}
+}

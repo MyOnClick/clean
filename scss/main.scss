@@ -14,8 +14,8 @@ html {
 	.title {
 		h2 {
 			text-align: center;
-			font-family: 'Ubuntu', sans-serif;
-			font-weight: 200;
+			font-family: 'Ubuntu', sans-serif; 
+			font-weight: 200; 
 			font-size: 40px;
 			color: $color-green;
 			span {
@@ -25,15 +25,15 @@ html {
 	}
 	 color:$color-text;
 	 font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif; 
 /* секция шапка*/
-	.navbar {
+	.navbar { 
 		background-color:$color-white;
 		.overlay,
 		.navBurger {
 						display: none;
 					}
-		.navBurger {
+		.navBurger { 
 			z-index: 5;
 			position: fixed;
 			right: 20px;
@@ -100,11 +100,11 @@ html {
 		.overlay {
 			z-index: 2;
 			position: fixed;
-			background:$color-green;
+			background:$color-blue-light;
 			top: 0;
 			right: 0;
-			width: 100%;
-			height: 100%;
+			width: 90%;
+			height: 90%;
 			opacity: 0;
 			transform-origin: right top;
 			transform: scale(0);
@@ -165,21 +165,22 @@ html {
 
 					a {
 						display: inline-block;
-						border: 1px solid rgba(255, 255, 255, 0.09);
-						color: #595959;
+						border: 1px solid rgba($color-white, 0.09);
+						color: $color-white;
 						text-decoration: none;
 						font-size: 30px;
 						padding: 10px 20px 10px 40px;
 						margin: 5px 0;
 						transition: 0.2s;
 						font-family: 'Ubuntu',sans-serif;
+						font-weight: 500;
 
 						&:hover,
 						&:active,
 						&:focus {
 							transform: translateX(-2px);
 							padding-left: 80px;
-							outline: 1px solid rgba(255, 255, 255, 0.3);
+							outline: 1px solid rgba($color-white, 0.3);
 							background: rgba(255, 255, 255, 0.03);
 						}
 					}
@@ -207,6 +208,9 @@ html {
 		img {
 			width: 80%;
 		}
+	.logo {
+		margin: 10px 0;
+	}
 	.nav {
 		font-weight: 700;
 			a {
@@ -216,7 +220,7 @@ html {
 				top: 25%;
 				left: 3px;
 				text-decoration: none;
-				padding: 10px 15px;
+				padding:  15px;
 				&:hover {
 					color: $color-gray;
 				}
@@ -260,5 +264,11 @@ html {
 	@import 'tocall';
 	@import 'work';
 	@import 'info';
+	@import 'mainfooter';
+	@import 'footer';
+	@import 'services';
+	@import 'cleaning';
+	@import 'reviews';
+	@import 'contacts';
 	@import 'mobile';
  }
